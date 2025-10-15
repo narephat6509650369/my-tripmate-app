@@ -15,6 +15,8 @@ function Login() {
     window.location.href = "http://localhost:5000/auth/google";
   };
 
+  console.log("Render Login Component");
+
   return (
     <div style={{ maxWidth: "400px", margin: "50px auto", textAlign: "center" }}>
       <h2>Login</h2>
